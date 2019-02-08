@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="RequestFood.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title> My Website</title>
+</head>
+<body>
+    <h1> My first website</h1>
+    <h2> My firssst website</h2>
+    <nav class="navbar navbar-inverse"> <!--Starting of navi bar-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">SayNoToHunger</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">Dashboard</a></li>
+                <li class="active"><a href="#">Request Food</a></li>
+                <li><a href="#">My Activities</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Out</a></li>
+                </ul>
+        </div>
+    </nav> <!--end of nav bar-->
+    
+            <div class="horizontal-row"> 
+                <div class="form-group"> <!--Food Name textbox-->
+                    <div class="row">
+                        <div class="col-md-2"><label for="foodname">Food Name:</label></div>
+                        <div class="col-md-4"><input type="text" class="form-control" id="foodname" style="width:500px" required></div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="dropdown"> <!--Number of Servings dropdown-->
+                    <div class="row">
+                        <div class="col-md-2"><label for="nosl">Number of Servings</label></div>
+                        <div class="col-md-1">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="nos" data-toggle="dropdown" required>
+                                --Select--<span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="nos">
+                                <li><a href="#1">1-5</a></li>
+                                <li><a href="#2">6-15</a></li>
+                                <li><a href="#3">15-20</a></li>
+                                <li><a href="#4">20+</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-1"> <!--Gluten Free checkbox-->
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="gluten" required>
+                                <label class="form-check-label" for="gluten">Gluten Free</label>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="row"> <!--Required on "Date"-->
+                        <div class="col-md-2"><label for="ex4">Required on:</label></div>
+                        <div class="col-md-2">
+                            <form action="/action_page.php">
+                                <div class="col-md-4"><input type="date" name="date" required></div>
+                            </form>
+                        </div>
+                        <div class="col-md-3"> <!--TimePicker-->
+                            <input type="time" name="usr_time" required>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="row"> <!--Comments textbox-->
+                        <div class="col-md-2">
+                            <div class="form-group"> 
+                                <label for="comm">Comments:</label>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <textarea class="form-control" rows="5" style="width:500px" id="comm"></textarea>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="wrapper"> <!--Buttons "Submit" and "Cancel"-->
+                        <div class="col-md-6 col-md-offset-3">
+                            <button class="btn btn-primary" type="submit">Cancel</button>
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+</body>
+</html>

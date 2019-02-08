@@ -1,0 +1,26 @@
+﻿.center {
+    padding: 15px;
+    background: #B3B3B3;
+    height: 44px;
+    width: 400px;
+    border: 2px solid red;
+}
+
+.control-label {
+    width: 10em;
+    border-color: brown;
+    border-width: .25em;
+    border-style: double;
+    margin-right: .5em;
+    float: left;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
