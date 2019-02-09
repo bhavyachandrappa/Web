@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="RecieverMyAct.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="Script1.js"></script>
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <!--Starting of navi bar-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">SayNoToHunger</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">Dashboard</a></li>
+                <li class="active"><a href="#">Request Food</a></li>
+                <li><a href="#">My Activities</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Out</a></li>
+            </ul>
+        </div>
+    </nav> <!--end of nav bar-->
+    <table align="center" cellpadding="20">
+            <tr>
+                <td>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#menu1">Accepted Food Offerings</a></li>
+                        <li><a data-toggle="tab" href="#menu2">Food Requests</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="menu1" class="tab-pane fade in active">
+                            <br />
+                            <br />
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-4">Sandwich</div>
+                                    <div class="col-md-4">40 servings</div>
+                                    <div class="col-md-4">
+                                        <a href="#a" data-toggle="collapse" aria-expanded="false" aria-controls="a">In-Progress</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+
+                            <div class="collapse" id="a">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
+                                                <h3> Donor1 </h3>
+                                            </p>
+                                            <p>
+                                                <h3> Edible until 17 Feb 2019 8:00AM </h3>
+                                            </p>
+                                            <p>
+                                                <h3> Gluten Free</h3>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>
+                                                <h3>
+                                                    Status:
+                                                </h3>
+                                            </p>
+                                            <h3> Volunter ABC has accepted to deliver your food</h3>
+                                            <p>
+                                                <button class="btn btn-primary" type="submit">Track</button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-4">Salad</div>
+                                    <div class="col-md-4">30 servings</div>
+                                    <div class="col-md-4">
+                                        <a href="#"><span class="glyphicon glyphicon-ok-circle"></span> Completed</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-4">Noodles</div>
+                                    <div class="col-md-4">50 servings</div>
+                                    <div class="col-md-4">
+                                        <a href="#"><span class="glyphicon glyphicon-ok-circle"></span> Completed</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                        </div>
+
+                        <div id="menu2" class="tab-pane fade in active">
+                            <div class="form-group">
+                                
+                                </div>
+                            </div>
+                        </div>
+                </td>
+            </tr>
+    </table>
+
+
+</body>
+</html>

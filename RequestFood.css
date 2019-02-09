@@ -1,0 +1,24 @@
+﻿/* cellpadding */
+table, th, td {
+    border: 1px black;
+    padding: 15px;
+}
+
+/* cellspacing */
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+/* cellspacing="5" */
+
+
+
+/* valign */
+th, td {
+    vertical-align: top;
+}
+
+/* align (center) */
+table {
+    margin: 0 auto;
+}

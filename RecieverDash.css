@@ -1,0 +1,12 @@
+﻿table {
+    padding: 20px;
+    height: 250px;
+    width: 900px;
+    border: 1px solid black;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid black;
+}

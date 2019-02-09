@@ -1,0 +1,15 @@
+﻿table {
+  
+    padding: 20px;
+    height: 250px;
+    width: 900px;
+    border: 1px solid black;
+}
+a:active {
+    background-color: cornflowerblue;
+}
+
+.tab-content {
+    height: 150px;
+    overflow-y: scroll;
+}
